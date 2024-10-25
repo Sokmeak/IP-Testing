@@ -8,26 +8,29 @@
       </nav>
     </div> -->
     <div class="C">
-      <Category/>
-      <Promotion/>
-      <Products/>
+      <category-component />
+      <Promotion />
+      <Products />
     </div>
   </header>
   <!-- <RouterView /> -->
 </template>
 
 <script setup>
-import { RouterLink, RouterView } from 'vue-router';
-import Category from './views/Category.vue';
-import Promotion from './views/Promotion.vue';
-import Products from './views/Products.vue';
+import { RouterLink, RouterView } from "vue-router";
+import CategoryComponent from "./views/Categories.vue";
+import Promotion from "./views/Promotions.vue";
+import Products from "./views/Products.vue";
 </script>
 
 <style scoped>
-.C{
+.C {
+  height: 120vh;
   display: flex;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
+  gap: 1rem;
 }
 /* .wrapper {
   padding: 20px;

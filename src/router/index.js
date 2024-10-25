@@ -1,6 +1,6 @@
-import Category from '@/views/Category.vue'
+import Category from '@/views/Categories.vue'
 import Products from '@/views/Products.vue'
-import Promotion from '@/views/Promotion.vue'
+import Promotion from '@/views/Promotions.vue'
 import { createRouter, createWebHistory } from 'vue-router'
 
 const routes = [
